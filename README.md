@@ -1,22 +1,30 @@
 # Product-Comparision
-This project leverages autonomous AI agents to automate multi-source product comparison. The system integrates web automation, natural language processing, and intelligent orchestration to gather, verify, and summarize product information from diverse online platforms.
+This project automates multi-source product comparison using AI agents. It combines web automation and intelligent orchestration to collect, validate, and summarize product details (price, specifications, reviews, availability) from different online platforms.
 
-Core Idea: Build AI agents capable of browsing e-commerce websites, extracting product details (price, specifications, reviews, availability), and presenting structured comparisons to assist decision-making.
+## 🚀 Features
 
-Tech Stack:
+Automated comparison of 5+ products across multiple sources
 
-Playwright for dynamic web scraping and navigation.
+Playwright for dynamic web scraping and navigation
 
-Autogen Agents (v0.71 stable) for orchestrating task execution, including a checker agent that validates extracted data for accuracy and consistency.
+Autogen Agents (v0.71 stable) for task orchestration
 
-LLM-driven summarization for transforming raw product data into concise, human-readable insights.
+Checker Agent for verifying extracted data
 
-Key Features:
+Cancellation factor to prevent redundant/faulty actions
 
-Automated comparison of 5 products across 2–3 sources each.
+LLM-powered summarization for clean, structured insights
 
-Data verification through an embedded cancellation factor to reduce faulty or redundant agent actions.
+## 🛠 Tech Stack
 
-Scalable design that can expand to more products, categories, and sources.
+Python
 
-Outcome: A reliable, efficient, and scalable tool that empowers businesses and consumers with real-time, accurate product insights, reducing manual effort in research and evaluation.
+Playwright
+
+Autogen 0.71
+
+LLMs (for data interpretation & summarization)
+
+## 🎯 Outcome
+
+A scalable AI-driven system that delivers real-time, accurate product comparisons, helping consumers and businesses make better purchase decisions with minimal manual research.
